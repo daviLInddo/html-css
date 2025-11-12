@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+     body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 200;
+            text-indent: 10px;
+     }
+     
+    div > p {
+        display: none;
+    }
+
+    div:hover > p{
+        display: block ;
+        color: cadetblue;
+        border: 1px solid black;
+        width: 300px;
+    }
+
+    div:hover{
+        color: cornflowerblue;
+    }
+
+</style>
+</head>
+
+<body>
+    <h1>Exemplo de Houver</h1>
+    <p>PASSE O MOUSE ABAIXO:</p>
+    <div>
+        passe a linguiça aqui!
+        <p>texto escondido.</p>
+    </div>
+    <a href="pseudoclasse.html" target="_blank">volte para o inicio</a>
+</body>
+</html>
