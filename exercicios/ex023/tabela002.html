@@ -13,6 +13,18 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top:-2 px;
+            background-color:gray;
+            border:5px solid black;
         }
         
         td, th {
@@ -49,7 +61,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col" style=" width:50px;"></th>População</th>
+                <th scope="col" style=" width:50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -171,5 +183,7 @@
              
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim illo in illum sequi! Error consequuntur eos maiores vel necessitatibus totam corporis qui? Error et minus at similique blanditiis fugit eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quisquam facilis illo sint in omnis, earum recusandae sunt quod iusto ab fuga cupiditate ad ullam voluptatibus provident veniam quia inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, commodi vitae. Natus odit repellat neque. Esse id consequatur at illum molestiae ratione non quidem est beatae, explicabo qui quod. Odio!</p>
 </body>
 </html>
