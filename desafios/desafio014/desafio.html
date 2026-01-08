@@ -1,18 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 014</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        .n{
+            width: 300px;
+
+        }
+        .n1{}
+    </style>
 </head>
+
 <body>
-    <table>
-        <tr>
-            <th>Área</th>
-            <th>Diciplinas</th>
-            
-        </tr>
-    </table>
-    
+  <table>
+      <thead>
+        <th scope="col">Área</th>
+        <th  scope="col">Disciplinas</th>
+        <th class="n">Notas</th>
+        <th class="n1">nota1</th>
+        <th class="n2">nota2</th>
+        <th>Média</th>
+      </thead>
+      <tbody>
+        <th scope="rowgroup" rowspan="4">Exatas</th>
+        <td>Matemática</td>
+        <td>Física</td>
+        <td>Química</td>
+        <td>Biologia</td>
+      </tbody>
+      <tfoot>
+      
+      </tfoot>
+  </table>
 </body>
+
 </html>
